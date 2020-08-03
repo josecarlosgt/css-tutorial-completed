@@ -1,0 +1,50 @@
+/* Center block elements with class="center" */
+.center {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Adjust position of content in the header */
+header div {
+	padding: 200px;
+}
+
+/* Center text */
+.center-text {
+	text-align: center;
+}
+
+header div h1 {
+	font-size: 500%;
+	color: white;
+}
+
+header div p {
+	font-weight: bold;
+	font-size: 150%;
+	color: white;
+}
+
+/* Add a full height image */
+header {
+	height: 100%;
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Adjust margin and border of articles */
+article {
+	margin-bottom: 10px;
+	border-bottom: 2px solid grey;
+}
+
+/* Center images and adjust their size */
+img {
+	display: block;
+	margin: 0px auto;
+
+	width: 350px;
+	height: 300px;
+}

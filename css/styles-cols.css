@@ -1,0 +1,65 @@
+/* Center block elements with class="center" */
+.center {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/* Adjust position of content in the header */
+header div {
+	padding: 200px;
+}
+
+/* Center text */
+.center-text {
+	text-align: center;
+}
+
+header div h1 {
+	font-size: 500%;
+	color: white;
+}
+
+header div p {
+	font-weight: bold;
+	font-size: 150%;
+	color: white;
+}
+
+/* Add a full height image */
+header {
+	height: 100%;
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Center images and adjust their size */
+img {
+	display: block;
+	margin: 0px auto;
+
+	width: 250px;
+	height: 200px;
+}
+
+/* Divide the content into columns 
+   Reference: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout */
+
+/* Adjust the stle of the section element */ 
+section {
+	padding-top: 10px;
+	column-count: 2;	
+	column-width: 250px;
+	column-gap: 20px;
+}
+
+/* Adjust the style of each column */
+article {
+	break-inside: avoid;
+	page-break-inside: avoid;
+	border: 2px solid grey;
+	padding: 10px;
+	margin: 0 0 1em 0;
+	height: 500px;
+}
