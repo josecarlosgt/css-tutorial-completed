@@ -1,17 +1,30 @@
+/* Add a full height image */
+body, html {
+  height: 100%;
+}
+
+header {
+	height: 100%;	
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* Center block elements with class="center" */
 .center {
 	max-width: 800px;
 	margin: 0 auto;
 }
 
+/* Center text inside block elements */
+.center-text {
+	text-align: center;
+}
+
 /* Adjust position of content in the header */
 header div {
 	padding: 200px;
-}
-
-/* Center text */
-.center-text {
-	text-align: center;
 }
 
 header div h1 {
@@ -23,15 +36,6 @@ header div p {
 	font-weight: bold;
 	font-size: 150%;
 	color: white;
-}
-
-/* Add a full height image */
-header {
-	height: 100%;
-	background-image: url("../images/background.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 /* Adjust margin and border of articles */
